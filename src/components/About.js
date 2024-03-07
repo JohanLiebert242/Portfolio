@@ -1,4 +1,5 @@
 import aboutImg from "../assets/about.svg";
+import TitleSection from "./TitleSection";
 
 function About() {
     return (
@@ -10,11 +11,7 @@ function About() {
                     alt="a man reviewing code"
                 />
                 <article>
-                    <div className="border-b border-gray-200 pb-5">
-                        <h2 className="text-3xl font-medium tracking-wider capitalize">
-                            Code And Coffee
-                        </h2>
-                    </div>
+                    <TitleSection text="Code And Coffee" />
                     <p className="text-slate-600 mt-8 leading-loose">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
